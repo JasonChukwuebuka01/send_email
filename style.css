@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&family=Edu+TAS+Beginner:wght@600&family=Noto+Sans+Nandinagari&family=Open+Sans&family=Pangolin&family=Poppins:wght@200;500&family=Roboto:wght@100&family=Ubuntu:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border: 1px solid black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSo_alnAbxZKHumEKi4yWhTt76iH1ta-8fuk7VbYI0yQ7AXnlDo2JRs91n&s=10");
+  background: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 90%;
+  padding: 10px;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  background: whitesmoke;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  padding: 5px;
+  font-size: 1.3rem;
+  font-family: "DynaPuff", cursive;
+  color: #000;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+  height: 50px;
+  padding: 10px;
+  outline: none;
+  font-family: inherit;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  background: transparent;
+  color: grey;
+  font-size: 1.2rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+}
+
+button {
+  width: 20%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 50%;
+  transform: translate(-60%);
+  font-family: inherit;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  /* background:conic-gradient(from .5turn at 50% 110%, white, orange);    
+    background:rgba(0,0,0,0.4);*/
+  background: transparent;
+  transition: 0.4s linear;
+}
+
+button:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.fa-envelope {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+textarea {
+  height: 100px;
+}
+
+.order {
+  width: 150px;
+  padding: 10px;
+  margin-left: 55%;
+}
